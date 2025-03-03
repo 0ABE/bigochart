@@ -27,8 +27,8 @@ set xrange [0:2048]
 set yrange [0:131072]
 
 set tics front
-set ytics nomirror 
 set xtics nomirror
+set ytics nomirror
 set xtics ("" 0,"" 1,"" 2,"" 4,"" 8,"" 16,"" 32,"" 64,"" 128,"" 256,"" 512,"" 1024,"" 2048)
 set ytics ("" 0,"" 1,"" 2,"" 4,"" 8,"" 16,"" 32,"" 64,"" 128,"" 256,"" 512,"" 1024,"" 2048,"" 4096,"" 8192,"" 16384,"" 32768,"" 65536,"" 131072)
 
@@ -58,21 +58,24 @@ unset ylabel
 # pi | pointinterval
 set style line 1 lc rgb '#000000' lt 1 lw 1 pi -1 ps 1.0
 
-plot [1:*] gamma(x)  with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#efbfcf", \
-     [1:*] 2**x      with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#efbfcf", \
-     [1:*] x**3      with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#efbfcf", \
-     [1:*] x**2      with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#ffbfbf", \
-     [1:*] x*log(x)  with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#ffdfbf", \
-     [1:*] x         with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#fffcbf", \
-     [1:*] log(x)**2 with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#efffbf", \
-     [1:*] log(x)    with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#efffbf", \
-     [1:*] 1         with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#bfffbf", \
-     [1:*] 1         with line ls 1, \
-     [1:*] log(x)    with line ls 1, \
-     [1:*] log(x)**2 with line ls 1, \
-     [1:*] x         with line ls 1, \
-     [1:*] x*log(x)  with line ls 1, \
-     [1:*] x**2      with line ls 1, \
-     [1:*] x**3      with line ls 1, \
-     [1:*] 2**x      with line ls 1, \
-     [1:*] gamma(x)  with line ls 1
+# Define a log with arbitrary base function.
+logb(x, base) = log(x)/log(base)
+
+plot [1:*] gamma(x)      with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#efbfcf", \
+     [1:*] 2**x          with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#efbfcf", \
+     [1:*] x**3          with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#efbfcf", \
+     [1:*] x**2          with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#ffbfbf", \
+     [1:*] x*logb(x, 2)  with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#ffdfbf", \
+     [1:*] x             with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#fffcbf", \
+     [1:*] logb(x, 2)**2 with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#efffbf", \
+     [1:*] logb(x, 2)    with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#efffbf", \
+     [1:*] 1             with filledcurves x1 fillstyle solid 1.0 fillcolor rgb "#bfffbf", \
+     [1:*] 1             with line ls 1, \
+     [1:*] logb(x, 2)    with line ls 1, \
+     [1:*] logb(x, 2)**2 with line ls 1, \
+     [1:*] x             with line ls 1, \
+     [1:*] x*logb(x, 2)  with line ls 1, \
+     [1:*] x**2          with line ls 1, \
+     [1:*] x**3          with line ls 1, \
+     [1:*] 2**x          with line ls 1, \
+     [1:*] gamma(x)      with line ls 1
