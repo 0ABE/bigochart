@@ -14,7 +14,7 @@
 # Gnuplot script file for plotting big O analysis.
 
 set terminal svg dynamic enhanced size 800,600 font "Liberation Mono,10"
-set output "bigochart.svg"
+set output "bigochart_loglog_empty.svg"
 
 unset key
 unset mouse
@@ -32,9 +32,12 @@ set ytics nomirror
 set xtics ("" 0,"" 1,"" 2,"" 4,"" 8,"" 16,"" 32,"" 64,"" 128,"" 256,"" 512,"" 1024,"" 2048)
 set ytics ("" 0,"" 1,"" 2,"" 4,"" 8,"" 16,"" 32,"" 64,"" 128,"" 256,"" 512,"" 1024,"" 2048,"" 4096,"" 8192,"" 16384,"" 32768,"" 65536,"" 131072)
 
-#set title "Algorithm Analysis using Big O" font "Liberation Mono,20" offset 0,-1
-#set xlabel "Input Size, n" font "Liberation Mono,15" offset 0,-0.75
-#set ylabel "Complexity, f(n)" font "Liberation Mono,15" offset 0.75,0
+# Title and axes labels.
+# set title "Algorithm Analysis using Big O" font "Liberation Mono,20" offset 0,-1
+# set xlabel "Input Size, n" font "Liberation Mono,15" offset 0,-0.75
+# set ylabel "Complexity, f(n)" font "Liberation Mono,15" offset 0.75,0
+
+# Keep the title and labels empty.
 unset title
 unset xlabel
 unset ylabel
