@@ -11,31 +11,43 @@
 <body>
 <style>
 div.bigochart {
-    margin: auto;
+    margin: 0 auto;
     max-width: 95%
 }
 div.bigotable {
-    margin: auto;
+    margin: 0 auto;
     max-width: 79%
 }
-img {
+img.big {
     width: auto;
     height: auto;
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
 }
+div.downloads {
+    margin: 0 auto;
+    margin-top: 2em;
+    text-align: center;
+}
 div.author {
+    margin: 0 auto;
     margin-top: 2em;
     font-size: 0.75em;
     text-align: center;
+    line-height: 1.5em;
 }
 </style>
 <div class="bigochart" title="Big-O Chart">
-    <img src="250310_bigochart_loglog.png" alt="Big-O Chart">
+    <img class="big" src="img/250310_bigochart_loglog.png" alt="Big-O Chart">
 </div>
 <div class="bigotable" title="Big-O Table">
-    <img src="250303_bigochart_table.png" alt="Big-O Table">
+    <img class="big" src="img/250303_bigochart_table.png" alt="Big-O Table">
+</div>
+<div class="downloads">
+    <a href="downloads/bigochart_letter.pdf">
+    <img src="img/pdf_download.png" width="48px"><br/>
+    Download PDF handout on letter size paper</a>
 </div>
 <div class="author">
     Abe of Hexadecimal<br/>
