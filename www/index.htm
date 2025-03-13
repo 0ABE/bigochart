@@ -7,9 +7,14 @@
     <meta name="author" content="Abe of Hexadecimal">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Big-O Chart</title>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
 <style>
+div {
+   font-size: 0.8em;
+   line-height: 1.5em;
+}
 div.bigochart {
     margin: 0 auto;
     max-width: 95%
@@ -27,27 +32,44 @@ img.big {
 }
 div.downloads {
     margin: 0 auto;
-    margin-top: 2em;
+    margin-top: 3em;
     text-align: center;
 }
 div.author {
     margin: 0 auto;
-    margin-top: 2em;
+    margin: 4em 0 4em 0;
     font-size: 0.75em;
     text-align: center;
     line-height: 1.5em;
 }
+p.figure-1-text {
+    margin: 0 8em 2em 8em;
+    text-align: justify;
+}
+p.table-1-text {
+    margin: 0 8em 2em 2em;
+    text-align: justify;
+}
 </style>
 <div class="bigochart" title="Big-O Chart">
     <img class="big" src="img/250310_bigochart_loglog.png" alt="Big-O Chart">
+    <br/><br/>
+    <p class="figure-1-text">Figure 1. \(\mathcal{O}\)-notation, a.k.a. "Big-O", is used to express the asymptotic upper bound 
+        on \(f(n)\) by some constant multiple of \(g(n)\), written as \(f(n) = \mathcal{O}(g(n))\). This 
+        upper bound represents the growth of the worst case running time or space consumption 
+        and makes no claims regarding tightness of fit. The shaded area underneath each 
+        function depicts the absence of an asymptotic lower bound associated with 
+        \(\mathcal{O}\)-notation. See Table 1 for a partial numerical analysis.</p>
 </div>
 <div class="bigotable" title="Big-O Table">
     <img class="big" src="img/250303_bigochart_table.png" alt="Big-O Table">
+    <br/><br/>
+    <p class="table-1-text">Table 1: Growth rates for algorithms with common complexities.</p>
 </div>
 <div class="downloads">
     <a href="downloads/bigochart_letter.pdf">
-    <img src="img/pdf_download.png" width="48px"><br/>
-    Download PDF handout on letter size paper</a>
+    <img src="img/pdf_download.png" width="128px"><br/>
+    Download a PDF handout on letter size paper</a>
 </div>
 <div class="author">
     Abe of Hexadecimal<br/>
