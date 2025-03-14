@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="33mm"
+   height="36mm"
+   viewBox="0 0 33.000001 36.000001"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="pdf_download copy.svg"
+   inkscape:export-filename="/home/abe/projects/github/bigochart/www/img/bigo_pdf_download.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:snap-grids="true"
+     inkscape:zoom="3.0652721"
+     inkscape:cx="21.205295"
+     inkscape:cy="80.580122"
+     inkscape:window-width="1863"
+     inkscape:window-height="1063"
+     inkscape:window-x="128"
+     inkscape:window-y="159"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer4"
+     units="mm"
+     width="30mm">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3124" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="paper"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <g
+       id="g12958"
+       transform="matrix(0.24549951,0,0,0.24549951,-9.9879568,-10.469492)">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#4d4d4d;stroke-width:5.09166;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 129.64583,50.270833 H 58.208333 V 171.97916 H 150.8125 V 71.437499 Z"
+         id="path10253" />
+      <path
+         style="fill:none;stroke:#4d4d4d;stroke-width:4.07333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 129.64583,50.270833 V 71.437499 H 150.8125"
+         id="path10528" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:22.498px;line-height:1.25;font-family:sans-serif;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.562452"
+       x="8.1504374"
+       y="23.933182"
+       id="text1258"
+       transform="scale(0.89560193,1.1165675)"><tspan
+         sodipodi:role="line"
+         id="tspan1256"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MathJax_Caligraphic;-inkscape-font-specification:MathJax_Caligraphic;fill:#4d4d4d;stroke-width:0.562452"
+         x="8.1504374"
+         y="23.933182">O</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="download arrow"
+     style="display:inline">
+    <path
+       style="display:inline;fill:#ff0000;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 23.788681,17.990358 v 9.743261 h -2.598202 l 5.845957,7.14506 5.845957,-7.14506 H 30.28419 v -9.743261 z"
+       id="path11750"
+       sodipodi:nodetypes="cccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="lines of text"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <g
+       id="g12932"
+       style="stroke-width:5.09166;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0.24549951,0,0,0.24549951,-9.9879568,-12.586159)">
+      <path
+         style="fill:none;stroke:#4d4d4d;stroke-width:5.09166;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 74.083333,127 c 58.208337,0 58.208337,0 58.208337,0"
+         id="path12685" />
+      <path
+         style="fill:none;stroke:#4d4d4d;stroke-width:5.09166;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 74.083333,111.125 c 58.208337,0 58.208337,0 58.208337,0"
+         id="path12685-6" />
+      <path
+         style="fill:none;stroke:#4d4d4d;stroke-width:5.09166;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 74.08333,95.25 c 58.20834,0 58.20834,0 58.20834,0"
+         id="path12685-6-3" />
+      <path
+         style="fill:none;stroke:#4d4d4d;stroke-width:5.09166;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 74.083333,142.875 c 58.208337,0 58.208337,0 58.208337,0"
+         id="path12685-7" />
+      <path
+         style="fill:none;stroke:#4d4d4d;stroke-width:5.09166;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 74.083333,158.75 c 58.208337,0 58.208337,0 58.208337,0"
+         id="path12685-5" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="pdf tag">
+    <g
+       id="g10789"
+       transform="matrix(0.24549951,0,0,0.24549951,-6.0668345,1.4367597)"
+       style="display:inline;stroke:#ffffff">
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:#ffffff;stroke-width:5.09166;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect10632"
+         width="75.441429"
+         height="43.10939"
+         x="27.119297"
+         y="68.731499" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:27.4092px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.285512"
+         x="38.135265"
+         y="98.974419"
+         id="text4386"><tspan
+           sodipodi:role="line"
+           id="tspan4384"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:27.4092px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;stroke:#ffffff;stroke-width:0.285512"
+           x="38.135265"
+           y="98.974419">PDF</tspan></text>
+    </g>
+  </g>
+</svg>
